@@ -54,7 +54,6 @@ def main():
             for _ in range(j):
                 password = "".join(r.sample(number + symbol + lower + upper, pass_len))
                 outputs.append(password)
-                #t.sleep(0.12)
         except ValueError as msg:
             outputs.append(f"Error: {msg}")
 
